@@ -1,0 +1,6 @@
+=> docker-compose up -d
+ - Inicia ou Reinicia todos os serviços definidos no docker-compose.yml.
+ - Detached mode "-d".: Significa que o contiêner do Docker é executado em segundo plano em seu terminal.
+
+=> docker-compose down
+ - O comando interromperá a execução de contêiners, mas também remove os contêiners interrompidos, bem como quaisquer rede que foram criadas.
